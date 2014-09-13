@@ -1,4 +1,4 @@
-use Rex -feature => ['0.51'];
+use Rex -feature => ['0.53'];
 
 # Load Apache Module
 use Apache;

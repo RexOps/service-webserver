@@ -2,7 +2,7 @@ listen: 80
 user: apache
 group: apache
 document_root: /var/www/html
-server_admin: jan.gehring@gmail.com
+server_admin: foo@bar.de
 
 
 virtual_hosts:

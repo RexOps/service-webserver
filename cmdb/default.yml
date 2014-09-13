@@ -1,0 +1,12 @@
+listen: 80
+user: apache
+group: apache
+document_root: /var/www/html
+server_admin: jan.gehring@gmail.com
+
+
+virtual_hosts:
+  www.foo.de:
+    document_root: /var/www/foo.de/htdocs
+  www.bar.de:
+    document_root: /var/www/bar.de/htdocs

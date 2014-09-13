@@ -1,0 +1,8 @@
+Name: Webserver Service
+Description: A webserver service
+Author: jan gehring <jan.gehring@gmail.com>
+License: Apache 2.0
+Require:
+  Apache:
+    git: https://bitbucket.org/jfried/rex-apache.git
+    branch: master

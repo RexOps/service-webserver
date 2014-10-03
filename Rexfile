@@ -8,7 +8,7 @@ task "setup",
   group => "webserver",
   make {
   my $vhosts = get cmdb "virtual_hosts";
-  setup Apache;
+  Apache::setup;
   Apache::vhost $vhosts;
   };
 

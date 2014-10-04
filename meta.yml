@@ -4,5 +4,5 @@ Author: jan gehring <jan.gehring@gmail.com>
 License: Apache 2.0
 Require:
   Apache:
-    git: https://bitbucket.org/jfried/rex-apache.git
+    git: https://github.com/RexOps/rex-apache.git
     branch: master
